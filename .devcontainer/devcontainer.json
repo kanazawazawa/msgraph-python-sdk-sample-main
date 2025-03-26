@@ -1,0 +1,14 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "MS-CEINTL.vscode-language-pack-ja"
+      ]
+    }
+  },
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt && echo 'TENANT_ID=your-tenant-id\nCLIENT_ID=your-client-id\nCLIENT_SECRET=your-client-secret\nUSER_ID=your-user-id\nROOM_ID=your-room-id' > .env"
+}

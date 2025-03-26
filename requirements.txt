@@ -1,0 +1,12 @@
+# For development and testing purposes, the latest version is installed without specifying a version. Modify as needed.
+jupyter
+msgraph-sdk
+python-dotenv
+
+# Note: azure-identity and msal are included in msgraph-sdk, so they are not needed.
+# azure-identity
+# msal
+# How to check
+# pip show azure-identity
+# pip show msal
+# pip show msgraph-sdk
