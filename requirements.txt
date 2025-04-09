@@ -2,6 +2,8 @@
 jupyter
 msgraph-sdk
 python-dotenv
+flask
+flask-cors
 
 # Note: azure-identity and msal are included in msgraph-sdk, so they are not needed.
 # azure-identity
